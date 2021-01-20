@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="ja">
+    
   <head>
+    <meta charset="UTF-8" />
     <title>Tasklist</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,7 +14,7 @@
 
   <body>
     <div class="container">
-      <%= render 'layouts/flash_tasks' %>
+      <%= render 'layouts/flash_messages' %>
 
       <%= yield %>
     </div>
